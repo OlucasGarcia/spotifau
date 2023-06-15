@@ -53,6 +53,11 @@
     margin-bottom: 20px;
 }
 
+.img {
+    max-width: 130px; 
+    height: fit-content;
+}
+
 .plan {
     min-height: 1000px;
     background-color: #efefef;
