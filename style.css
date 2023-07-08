@@ -3,7 +3,7 @@
 
 .menu {
     min-height: 80px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(80, 155, 246);
 }
 
 .menu div {
@@ -13,8 +13,9 @@
     font-size: 14px;
 }
 
-.btn:hover {
-    color: rgb(33, 226, 107);
+.logo{
+    max-width: 130px; 
+    height: auto;
 }
 
 .risk {
@@ -24,8 +25,16 @@
     border-left: 1px solid white;
 }
 
+.sec-1{
+    background-color: rgb(80, 155, 246)
+}
+
 .hero{
     min-height: 380px;
+    background-image: url(../spotifau/img/premium_dancer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 330px;
 }
 
 .hero div{
@@ -33,15 +42,24 @@
     font-family: 'montserrat' , sans-serif;
 }
 
-.botao-1 { 
-    font-size: 18px; 
-    text-align: center; 
-    border: 1px solid rgb(43, 189, 14); 
-    border-radius: 10px; 
-    background-color: rgb(43, 189, 14); 
-    margin: 10px 5px 0 20px;
+.texto-1{
+    font-size: 36px; 
+    font-weight: 800;
 }
 
+.texto-2{
+    font-size: 22px;
+}
+
+.texto-3{
+    font-size: 10px; 
+    padding-bottom: 20px;
+}
+
+.btn:hover{
+    transition: .5s;
+    color: rgb(59, 255, 59);
+} 
 
 .premium {
     min-height: 550px;
@@ -53,22 +71,61 @@
     margin-bottom: 20px;
 }
 
+.text-premium{
+    text-align: center; 
+    font-size: 36px; 
+    font-weight: 800;
+}
+
 .img {
     max-width: 130px; 
     height: fit-content;
 }
 
+.topic{
+    text-align: center;
+    min-width: 270px;
+}
+
+.titulo{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.linha{
+    font-size: 14px;
+}
+
 .plan {
-    min-height: 1000px;
-    background-color: #efefef;
+    background-color: rgb(248, 249, 251);
     font-family: 'Montserrat', sans-serif;
 }
 
-.plan div{
-    border: 2px solid green;
+.texto-4{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.texto-5{
+    font-size: 16px;
+    text-align: center; 
+    font-weight: 400;
+}
+
+.cartao{
+    min-height: 800px;
+    margin-bottom: 50px;
+}
+
+.botao-1{
+    margin-left: 20px;
+    background-color: rgb(11, 158, 11);
+    border: 0px;
+    object-position: bottom;
 }
 
 .rodape {
-    min-height: 500px;
+    min-height: 100px;
     background-color: rgba(0, 0, 0);
 }

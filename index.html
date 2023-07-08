@@ -11,7 +11,7 @@
     <header class="menu d-flex align-items-center">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 logo "><img src="../spotifau/img/logo.png" class="img-fluid" style="max-width: 130px; height: auto;"></div>
+                <div class="col-lg-6"><img src="../spotifau/img/logo.png" class="img-fluid logo"></div>
                 <div class="col-lg-6 d-flex justify-content-center">
                     <div class="btn">Premium</div>
                     <div class="btn">Suporte</div>
@@ -25,46 +25,46 @@
     </header>
 
     <main>
-        <section style="background-color: #1d75de;">
+        <section class="sec-1">
             <div class="container">
             <div class="row hero align-items-center">
-                <div class="col-lg-12" style="margin: 50px 0 30px 0; font-size: 36px; font-weight: 800;">Aproveite 1 mês grátis de Premium</div>
-                <div class="col-lg-12" style="font-size: 22px; margin-bottom: 30px;">Depois, apenas R$ 16,90/mês. Cancele quando quiser.</div>
-                <div class="col-lg-2 col-md-12 botao-1"><p style="margin-top: 16px;">Ver planos</p></div>
-                <div class="col-lg-12 col-md-8" style="font-size: 10px; padding-bottom: 20px; margin-top: 30px;"><u>Sujeito a Termos e Condições.</u> Apenas para usuários que nunca tiveram o Premium.</div>
+                <div class="col-lg-12 texto-1">Aproveite 1 mês grátis de Premium</div>
+                <div class="col-lg-12 texto-2">Depois, apenas R$ 16,90/mês. Cancele quando quiser.</div>
+                <div class="col-lg-2 col-md-12 botao-1"><button type="button" class="btn btn-success" style="background-color: rgb(10, 187, 10); border: 0;">Ver Planos</button></div>
+                <div class="col-lg-12 col-md-8 texto-3"><u>Sujeito a Termos e Condições.</u> Apenas para usuários que nunca tiveram o Premium.</div>
             </div>
             </div>
         </section>
 
         <div class="container" style="min-width: 95%;">
         <section class="row premium justify-content-center">
-            <div class="col-12" style="text-align: center; font-size: 36px; font-weight: 800; margin-top: 30px;">Por que ser Premium?</div>
+            <div class="col-12 mt-5 text-premium">Por que ser Premium?</div>
             <div class="col-lg-3 col-md-6 d-flex flex-wrap justify-content-center">
                 <div><img src="../spotifau/img/benefit_1.png" class="img-fluid img"></div>
-                <div style="margin-top: 20px; text-align: center;">
-                    <p style="font-weight: 900; font-size: 18px; margin-top: px;">Modo offline.</p>
-                    <p style="font-size: 14px;">Ouça música onde estiver.</p>
+                <div class="mt-2 ml-1 topic">
+                    <p class="titulo">Modo offline.</p>
+                    <p class="linha">Ouça música onde estiver.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 d-flex flex-wrap justify-content-center">
                 <div><img src="../spotifau/img/Benefit_2.png" class="img-fluid img"></div>
-                <div style="margin-top: 25px; text-align: center;">
-                <p style="font-weight: 900; font-size: 18px;">Ouça músicas sem anúncios.</p>
-                <p style="font-size: 14px;">Curta música sem anúncios.</p>
+                <div class="mt-2 ml-1 topic">
+                <p class="titulo">Ouça músicas sem anúncios.</p>
+                <p class="linha">Curta música sem anúncios.</p>
             </div>
             </div>
             <div class="col-lg-3 col-md-6 d-flex flex-wrap justify-content-center">
                 <div><img src="../spotifau/img/benefit_3.png" class="img-fluid img"></div>
-                <div style="margin-top: 20px; text-align: center;">
-                    <p style="font-weight: 900; font-size: 18px;">Ouça na ordem que quiser.</p>
-                    <p style="font-size: 14px;">Qualquer música em qualquer ordem.</p>
+                <div class="mt-2 ml-1 topic">
+                    <p class="titulo">Ouça na ordem que quiser.</p>
+                    <p class="linha">Qualquer música em qualquer ordem.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 d-flex flex-wrap justify-content-center">
                 <div><img src="../spotifau/img/benefit_4.png" class="img-fluid img"></div>
-                <div style="margin-top: 20px; text-align: center;">
-                    <p style="font-weight: 900; font-size: 18px;">Qualidade de som superior.</p>
-                    <p style="font-size: 14px;">Sinta o som</p>
+                <div class="mt-2 ml-1 topic">
+                    <p class="titulo">Qualidade de som superior.</p>
+                    <p class="linha">Sinta o som</p>
                 </div>
             </div>
         </section>
@@ -74,21 +74,72 @@
             <div class="container">
             <div class="row plan justify-content-center">
                 <div class="col-12">
-                    <div style="font-size: 36px; text-align: center; font-weight: 700; margin-top: 40px;">Escolha seu plano Premium</div>
-                    <div>Ouça sem limites no seu celular, alto-falante e em outros dispositivos.</div>
-                    <div>Cartões</div>
+                    <div><p class="texto-4 mt-3" style="">Escolha seu plano Premium</p></div>
+                    <div><p class="texto-5">Ouça sem limites no seu celular, alto-falante e em outros dispositivos.</p></div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="card"></div>
+                    <div class="card cartao"> 
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary mb-3">1 mês grátis</button>
+                            <h5 class="card-title">Individual</h5>
+                            <p class="card-text">R$ 16,90/mês após o período da oferta</p>
+                            <p class="card-text">1 conta</p>
+                            <hr>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p> 
+                            <button type="button" class="btn btn-success mt-5 botao-1">Começar</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="card"></div>
+                    <div class="card cartao">
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary mb-3">1 mês grátis</button>
+                            <h5 class="card-title">Duo</h5>
+                            <p class="card-text">R$ 16,90/mês após o período da oferta</p>
+                            <p class="card-text">2 contas</p>
+                            <hr>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <button type="button" class="btn btn-success mt-5 botao-1">Começar</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="card"></div>
+                    <div class="card cartao">
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary mb-3">1 mês grátis</button>
+                            <h5 class="card-title">Família</h5>
+                            <p class="card-text">R$ 16,90/mês após o período da oferta</p>
+                            <p class="card-text">6 contas</p>
+                            <hr>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p> 
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <button type="button" class="btn btn-success mt-5 botao-1">Começar</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="card"></div>
+                    <div class="card cartao">
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary mb-3">1 mês grátis</button>
+                            <h5 class="card-title">Universitário</h5>
+                            <p class="card-text">R$ 16,90/mês após o período da oferta</p>
+                            <p class="card-text">1 conta</p>
+                            <hr>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p>
+                            <p class="mt-5 card-text">✔ Curta músicas sem anúncios</p> 
+                            <button type="button" class="btn btn-success mt-5 botao-1">Começar</button>
+                        </div>
+                    </div>
                 </div>
             </div>
             </div>
